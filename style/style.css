@@ -1,0 +1,58 @@
+.asosiy{
+    width: 100%;
+}
+
+.asosiy div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 640px;
+}
+    
+.main1{
+    width: 45%;
+    background: url(https://avada.theme-fusion.com/wp-content/uploads/2021/08/beginner-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main2{
+
+    width: 55%;
+    background-color: #FFE979;
+    position: absolute;
+    display: block;
+    padding-top: 150px;
+    padding-left: 70px;
+}
+
+.main3{
+    font-family:Verdana, Geneva, Tahoma, sans-serifs;
+    font-weight: 200;
+}
+
+.main4{
+    width: 474px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: 40px;
+}
+
+.main5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;   
+    font-size: 25px;
+}
+
+.main6{
+    position: absolute;
+    border: none;
+    top: 500px;
+    right: 500px;
+    padding: 10px;
+    background-color: #242424;
+    color: white;
+}
+
+.main6:hover{
+    background-color: black;
+    color: white;
+}
