@@ -1,62 +1,277 @@
 body{
-    overflow: hidden;
+    background-color: #101010; 
 }
 
-.asosiy{
-    width: 100%;
+li{
+    list-style-type: none;
 }
 
-.asosiy div{
-    display: inline-flex;
-    flex-wrap: wrap;
-    height: 640px;
+    .img_block{
+        position: absolute;
+        bottom: 524px;
+        left: 50px;
+    }
+
+a{
+    text-decoration: none;
 }
+
+header{
+        margin-top: 40px;
+}
+
+header div {
+    display: inline-block;
+}
+
+.menu_block{
+    margin-left: 500px;
+
+}
+
+.menu_block li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.a_block{
+    margin-left: 20px;
     
-.main1{
-    width: 45%;
-    background: url(https://avada.theme-fusion.com/wp-content/uploads/2021/08/beginner-3.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
-.main2{
-
-    width: 55%;
-    background-color: #FFE979;
-    position: absolute;
-    display: block;
-    padding-top: 150px;
-    padding-left: 70px;
+.menu_block li a{
+    color: #C6C9D8;
+    transition: 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.main3{
-    font-family:Verdana, Geneva, Tahoma, sans-serifs;
+.a_block  a{
+    color: #C6C9D8; 
+    padding: 10px;
+    border: 1px solid #C6C9D8;
+    border-radius: 10%;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.menu_block li a:hover{
+    color: crimson;
+}
+
+.a_block a:hover{
+    background-color: crimson;
+}
+
+.h1_block{
+    background: -webkit-linear-gradient(rgba(247,29,9,1) 0%, rgba(240,12,84,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 70px;
+    font-size: 50px;
+    width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content div{
+    display: inline-block;
+    margin-left: 60px;
+    width: 360px;
+    margin-bottom: 200px;
+}
+
+.img1 h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
 }
 
-.main4{
-    width: 474px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-    font-size: 40px;
-}
-
-.main5{
+.img1 p{
+    color: #515257;
+    font-size: 20px;
+    width: 400px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;   
-    font-size: 25px;
 }
 
-.main6{
-    position: absolute;
-    border: none;
-    top: 500px;
-    right: 500px;
-    padding: 10px;
-    background-color: #242424;
+.img2 h1{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
 }
 
-.main6:hover{
-    background-color: black;
+.img2 p{
+    color: #515257;
+    font-size: 20px;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img3 h1{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+.img3 p{
+    color: #515257;
+    font-size: 20px;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_div{
+    background-color: #191919;
+    width: 1400px;
+    display: inline-flex;
+}
+
+.main_img img{
+    margin-left: 50px;
+    border-radius: 10px; 
+    margin-top: -90px;
+    margin-bottom: 60px;
+}
+
+.who_div {
+    display: inline-flex;
+}
+
+.leftga {
+    margin-left: 60px;
+}
+
+.main_h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+
+.main_p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #515257;
+    width: 700px;
+    font-size: 23px;
+}
+
+.block_h1{
+    color: white;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.block_p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #515257;
+    width: 300px;
+    font-size: 20px;
+}
+
+.servis_h1{ 
+    font-size: 50px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.lorem_p{
+    width: 300px;
+    color: #515257;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.servise {
+    display: inline-flex;
+}
+
+.request_a{
+    color: #fff;
+    font-size: 19px;
+    margin-top: 300px;
+    margin-left: 90px;
+    transition: 1s;
+}
+
+.request_a:hover{
+    border-bottom: 2px solid crimson;
+
+}
+
+.icon_div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.icon_div div {
+    margin-left: 140px;
+    width: 290px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.icon_div div svg{
+    width: 55px;
+    fill: crimson; 
+}
+
+.Business_block1{
+    color: #fff;
+} 
+
+.Website_block2{
+    color: #fff;
+}
+
+.marketing_block3{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.mobile_block4{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.Business_block1 p{
+    width: 300px;
+    color: #515257;
+    font-size: 20px;
+}
+
+.Website_block2 p{
+    width: 300px;
+    color: #515257;
+    font-size: 20px;
+} 
+
+.marketing_block3 p{
+    width: 300px;
+    color: #515257;
+    font-size: 20px;
+}
+
+.mobile_block4 p{
+    width: 300px;
+    color: #515257;
+    font-size: 20px;
+}
+
+.icon_div div:hover{
+    background-color: rgba(240,12,84,1);
+    box-shadow: 4px 0px 0px 2px rgb(22, 22, 22);
+    margin-top: -10px;
+}
+
+.icon_div div:hover svg{
+    fill: white;
+}
+
+.icon_div div:hover p{
+    color: #fff;
 }
